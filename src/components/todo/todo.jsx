@@ -28,10 +28,6 @@ const ToDo = () => {
     }
   };
 
-  console.log("value", value);
-  console.log("ip", value.inprogress);
-  console.log("td", value.todo);
-  console.log("done", value.done);
   return (
     <Container className="mt-5 ">
       <Row>
