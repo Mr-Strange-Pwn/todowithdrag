@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/todowithdrag/static/css/main.ada05f5e.chunk.css",
-    "main.js": "/todowithdrag/static/js/main.4879078a.chunk.js",
-    "main.js.map": "/todowithdrag/static/js/main.4879078a.chunk.js.map",
+    "main.js": "/todowithdrag/static/js/main.364c41a4.chunk.js",
+    "main.js.map": "/todowithdrag/static/js/main.364c41a4.chunk.js.map",
     "runtime-main.js": "/todowithdrag/static/js/runtime-main.25fe596b.js",
     "runtime-main.js.map": "/todowithdrag/static/js/runtime-main.25fe596b.js.map",
     "static/css/2.d9ad5f5c.chunk.css": "/todowithdrag/static/css/2.d9ad5f5c.chunk.css",
     "static/js/2.2b7a0a89.chunk.js": "/todowithdrag/static/js/2.2b7a0a89.chunk.js",
     "static/js/2.2b7a0a89.chunk.js.map": "/todowithdrag/static/js/2.2b7a0a89.chunk.js.map",
     "index.html": "/todowithdrag/index.html",
-    "precache-manifest.c14c0a1a31014e6994e0deaf1cd94349.js": "/todowithdrag/precache-manifest.c14c0a1a31014e6994e0deaf1cd94349.js",
+    "precache-manifest.b3777397465ac42089c7ec929a09fcbd.js": "/todowithdrag/precache-manifest.b3777397465ac42089c7ec929a09fcbd.js",
     "service-worker.js": "/todowithdrag/service-worker.js",
     "static/css/2.d9ad5f5c.chunk.css.map": "/todowithdrag/static/css/2.d9ad5f5c.chunk.css.map",
     "static/css/main.ada05f5e.chunk.css.map": "/todowithdrag/static/css/main.ada05f5e.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.d9ad5f5c.chunk.css",
     "static/js/2.2b7a0a89.chunk.js",
     "static/css/main.ada05f5e.chunk.css",
-    "static/js/main.4879078a.chunk.js"
+    "static/js/main.364c41a4.chunk.js"
   ]
 }
