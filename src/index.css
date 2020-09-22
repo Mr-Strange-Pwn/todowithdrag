@@ -1,17 +1,5 @@
-.todocontainer {
-  background: blue;
-}
-
-.ipcontainer {
-  background: yellow;
-}
-
-.donecontainer {
-  background: yellowgreen;
-}
-
 .todocontainer .card {
-  background: tomato;
+  background: yellow;
 }
 
 .ipcontainer .card {
@@ -19,5 +7,5 @@
 }
 
 .donecontainer .card {
-  background: blanchedalmond;
+  background: lightgray;
 }

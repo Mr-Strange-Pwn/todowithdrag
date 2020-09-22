@@ -1,5 +1,4 @@
 import React, { useContext, useState } from "react";
-import { Container, Row, Col } from "react-bootstrap";
 import { context } from "../context/context";
 
 const ToDo = () => {
@@ -29,12 +28,13 @@ const ToDo = () => {
   };
 
   return (
-    <Container className="mt-5 ">
-      <Row>
-        <Col
+    <div className="container-fluid mt-5">
+      <div className="row">
+        <div
+          className="col border border-warning m-2"
+          style={{ borderRadius: "20px", background: "whitesmoke" }}
           onDragOver={(e) => onDragOver(e)}
-          onDrop={(e) => onDrop(e, "todo")}
-          className="todocontainer">
+          onDrop={(e) => onDrop(e, "todo")}>
           <h3>To Do</h3>
           <hr />
           <input
@@ -46,7 +46,8 @@ const ToDo = () => {
             onKeyDown={(e) => inputHandler(e)}
           />
           <hr />
-          <Container>
+
+          <div className="container todocontainer pb-2 ">
             {value.todo.map((item) => (
               <div
                 draggable
@@ -56,15 +57,17 @@ const ToDo = () => {
                 <h5>{item.item}</h5>
               </div>
             ))}
-          </Container>
-        </Col>
-        <Col
-          className="ipcontainer"
+          </div>
+        </div>
+
+        <div
+          className="col border border-success m-2"
+          style={{ borderRadius: "20px", background: "whitesmoke" }}
           onDragOver={(e) => onDragOver(e)}
           onDrop={(e) => onDrop(e, "inprogress")}>
           <h3>In Progress</h3>
           <hr />
-          <Container>
+          <div className="container ipcontainer  pb-2 ">
             {value.inprogress.map((item) => (
               <div
                 className="card mt-1 md-1"
@@ -74,15 +77,17 @@ const ToDo = () => {
                 <h5 className="mt-0.5 ">{item.item}</h5>
               </div>
             ))}
-          </Container>
-        </Col>
-        <Col
-          className="donecontainer"
+          </div>
+        </div>
+
+        <div
+          className="col border border-primary  m-2"
+          style={{ borderRadius: "20px", background: "whitesmoke" }}
           onDragOver={(e) => onDragOver(e)}
           onDrop={(e) => onDrop(e, "done")}>
-          <h2>Done</h2>
+          <h3>Done</h3>
           <hr />
-          <Container>
+          <div className="container donecontainer  pb-2  ">
             {value.done.map((item) => (
               <div
                 className="card mt-1 md-1"
@@ -93,10 +98,10 @@ const ToDo = () => {
                 <h5>{item.item}</h5>{" "}
               </div>
             ))}
-          </Container>
-        </Col>
-      </Row>
-    </Container>
+          </div>
+        </div>
+      </div>
+    </div>
   );
 };
 
