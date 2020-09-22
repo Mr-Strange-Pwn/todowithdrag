@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.css"],"names":[],"mappings":"AAAA,qBACE,eACF,CAEA,mBACE,kBACF,CAEA,qBACE,kBACF","file":"main.ada05f5e.chunk.css","sourcesContent":[".todocontainer .card {\n  background: yellow;\n}\n\n.ipcontainer .card {\n  background: lawngreen;\n}\n\n.donecontainer .card {\n  background: lightgray;\n}\n"]}
