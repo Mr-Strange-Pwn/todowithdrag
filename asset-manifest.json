@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/todowithdrag/static/css/main.13aca36d.chunk.css",
+    "main.css": "/todowithdrag/static/css/main.c3ad4cd5.chunk.css",
     "main.js": "/todowithdrag/static/js/main.a002c52d.chunk.js",
     "main.js.map": "/todowithdrag/static/js/main.a002c52d.chunk.js.map",
     "runtime-main.js": "/todowithdrag/static/js/runtime-main.25fe596b.js",
@@ -9,17 +9,17 @@
     "static/js/2.2b7a0a89.chunk.js": "/todowithdrag/static/js/2.2b7a0a89.chunk.js",
     "static/js/2.2b7a0a89.chunk.js.map": "/todowithdrag/static/js/2.2b7a0a89.chunk.js.map",
     "index.html": "/todowithdrag/index.html",
-    "precache-manifest.69be6f0ef18234422d8a371dc13776bc.js": "/todowithdrag/precache-manifest.69be6f0ef18234422d8a371dc13776bc.js",
+    "precache-manifest.c438b86c10ff163f3a5774ddcd926e1b.js": "/todowithdrag/precache-manifest.c438b86c10ff163f3a5774ddcd926e1b.js",
     "service-worker.js": "/todowithdrag/service-worker.js",
     "static/css/2.d9ad5f5c.chunk.css.map": "/todowithdrag/static/css/2.d9ad5f5c.chunk.css.map",
-    "static/css/main.13aca36d.chunk.css.map": "/todowithdrag/static/css/main.13aca36d.chunk.css.map",
+    "static/css/main.c3ad4cd5.chunk.css.map": "/todowithdrag/static/css/main.c3ad4cd5.chunk.css.map",
     "static/js/2.2b7a0a89.chunk.js.LICENSE.txt": "/todowithdrag/static/js/2.2b7a0a89.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.25fe596b.js",
     "static/css/2.d9ad5f5c.chunk.css",
     "static/js/2.2b7a0a89.chunk.js",
-    "static/css/main.13aca36d.chunk.css",
+    "static/css/main.c3ad4cd5.chunk.css",
     "static/js/main.a002c52d.chunk.js"
   ]
 }
