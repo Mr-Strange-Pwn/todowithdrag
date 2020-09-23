@@ -6,7 +6,9 @@ import TodoContainer from "./components/context/context";
 function App() {
   return (
     <TodoContainer>
-      <ToDo />
+      <div className="showcase">
+        <ToDo />
+      </div>
     </TodoContainer>
   );
 }

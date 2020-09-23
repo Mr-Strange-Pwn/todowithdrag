@@ -28,11 +28,10 @@ const ToDo = () => {
   };
 
   return (
-    <div className="container-fluid mt-5">
+    <div className="container">
       <div className="row">
         <div
-          className="col border border-warning m-2"
-          style={{ borderRadius: "20px", background: "whitesmoke" }}
+          className="col border "
           onDragOver={(e) => onDragOver(e)}
           onDrop={(e) => onDrop(e, "todo")}>
           <h3>To Do</h3>
@@ -40,7 +39,7 @@ const ToDo = () => {
           <input
             type="text"
             value={input}
-            placeholder="add a item "
+            placeholder="add a Task "
             style={{ width: "100%" }}
             onChange={(e) => setinput(e.target.value)}
             onKeyDown={(e) => inputHandler(e)}
@@ -61,8 +60,7 @@ const ToDo = () => {
         </div>
 
         <div
-          className="col border border-success m-2"
-          style={{ borderRadius: "20px", background: "whitesmoke" }}
+          className="col borders "
           onDragOver={(e) => onDragOver(e)}
           onDrop={(e) => onDrop(e, "inprogress")}>
           <h3>In Progress</h3>
@@ -81,8 +79,7 @@ const ToDo = () => {
         </div>
 
         <div
-          className="col border border-primary  m-2"
-          style={{ borderRadius: "20px", background: "whitesmoke" }}
+          className="col border"
           onDragOver={(e) => onDragOver(e)}
           onDrop={(e) => onDrop(e, "done")}>
           <h3>Done</h3>
